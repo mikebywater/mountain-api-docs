@@ -20,7 +20,7 @@ paths:
     post:
       tags:
         - mountains
-      summary: Add a new mountain to the listing
+      summary: Add a new mountain to the database
       description: ""
       operationId: addMountain
       requestBody:
@@ -31,7 +31,7 @@ paths:
     get:
       tags:
         - mountains
-      summary: Finds Pets by status
+      summary: Lists all mountains in the database
       description: Multiple status values can be provided with comma separated strings
       operationId: listMountains
       responses:
@@ -60,7 +60,7 @@ paths:
       parameters:
         - name: mountain_id
           in: path
-          description: ID of pet to return
+          description: ID of mountain to return
           required: true
           schema:
             type: integer
@@ -105,7 +105,7 @@ components:
           example: 1
         name:
           type: string
-          example: Scaffel Pike
+          example: Scafell Pike
         Region:
           type: string
           example: Lake District - South West
