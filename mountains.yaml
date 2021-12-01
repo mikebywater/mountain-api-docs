@@ -102,7 +102,7 @@ components:
         name:
           type: string
           example: Scafell Pike
-        Region:
+        region:
           type: string
           example: Lake District - South West
         metres:
