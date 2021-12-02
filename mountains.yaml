@@ -76,7 +76,7 @@ paths:
         "404":
           description: Mountain not found
 servers:
-  - url: https://petstore.swagger.io/v2
+  - url: https://567t43gj5l.execute-api.eu-west-2.amazonaws.com/test
 components:
   requestBodies:
     Mountain:
